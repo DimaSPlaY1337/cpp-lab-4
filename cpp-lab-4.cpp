@@ -19,7 +19,7 @@ void CanDivideEvenly(long* massiv, int n)
             cout << "Count of slots: " << n / 2 << endl;
 
             for (int i = 0; i < (n / 2); i = i + 2)
-                cout << massiv[i] << "(" << i << "), " << massiv[n - i - 1] << "(" << n - i - 1 << "), ";
+                cout << massiv[i] << ", " << massiv[n - i - 1] << ", ";
 
             cout << endl;
             cout << "Count of slots: " << n / 2 << endl;
@@ -33,7 +33,7 @@ void CanDivideEvenly(long* massiv, int n)
             cout << "Count of slots: " << n / 2 + 1 << endl;
 
             for (int i = 0; i < (n / 2); i = i + 2)
-                cout << massiv[i] << "(" << i << "), " << massiv[n - i - 2] << "(" << n - i - 2 << "), ";
+                cout << massiv[i] << ", " << massiv[n - i - 2] << ", ";
 
             cout << endl;
             cout << "Count of slots: " << n / 2 << endl;
